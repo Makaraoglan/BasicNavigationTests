@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2774633e-84ec-4ad7-bdca-db57ddf06e02" name="Changes" comment="" />
+    <list default="true" id="2774633e-84ec-4ad7-bdca-db57ddf06e02" name="Changes" comment="Basic Navigation Tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -28,6 +31,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2JYj2vbYYj2CKK7CaBYeTKzcPbS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -36,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ALI KARAOGLAN/IdeaProjects/seleniumprojectEU-10",
+    "last_opened_file_path": "C:/Users/ALI KARAOGLAN/IdeaProjects/BasicNavigationTests",
     "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
@@ -69,11 +73,34 @@
       <option name="presentableId" value="Default" />
       <updated>1672261707149</updated>
       <workItem from="1672261708687" duration="45000" />
-      <workItem from="1672261907475" duration="5876000" />
+      <workItem from="1672261907475" duration="6384000" />
     </task>
+    <task id="LOCAL-00001" summary="Basic Navigation Tests">
+      <created>1672268245790</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672268245790</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Basic Navigation Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic Navigation Tests" />
   </component>
 </project>
