@@ -11,26 +11,27 @@ public class BrowserFactory {
 
     public static WebDriver getDriver(String browser){
 
-        WebDriver driver = new ChromeDriver();
-
         if ((System.getProperty("os.name").equals("Windows 10")&&browser.equals("safari")) || (System.getProperty("os.name").equals("Mac")&&browser.equals("edge"))){
-            driver = null;
+            return null;
         }
 
         if (browser.equals("Chrome")){
                 WebDriverManager.chromedriver().setup();
-                driver =  new ChromeDriver();
+                return new ChromeDriver();
         } else if (browser.equals("Firefox")) {
                 WebDriverManager.firefoxdriver().setup();
-                driver =  new FirefoxDriver();
+                return new FirefoxDriver();
         } else if (browser.equals("Edge")) {
                 WebDriverManager.edgedriver().setup();
-                driver =  new EdgeDriver();
+                return new EdgeDriver();
         } else if(browser.equals("Safari")){
                 WebDriverManager.safaridriver().setup();
-                driver =  new SafariDriver();
+                return new SafariDriver();
+        }else{
+            System.out.println("Given browser type does not exist/or is not supported");
+            System.out.println("Driver = null");
+            return null;
         }
 
-        return driver;
     }
 }
